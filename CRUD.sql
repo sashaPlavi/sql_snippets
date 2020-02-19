@@ -142,3 +142,14 @@ DELETE FROM cats WHERE name='egg';
 SELECT * FROM cats;
  
 DELETE FROM cats;
+
+--creating shit TABLE
+CREATE TABLE shirts
+ (
+  shirt_id INT NOT NULL AUTO_INCREMENT,
+  article VARCHAR(100),
+ color VARCHAR(100), 
+shirt_siye VARCHAR(3),
+ last_worn INT ,
+PRIMARY KEY(shirt_i)
+ );
